@@ -1,0 +1,21 @@
+jdbc.default.driverClassName=org.postgresql.Driver
+jdbc.default.username=LifeRaySys
+jdbc.default.url=jdbc:postgresql://localhost:5432/lportal
+jdbc.default.password=Audac1ous
+theme.shortcut.icon=liferay.ico
+web.server.host=sitplatform.org
+live.users.enabled=false
+virtual.hosts.default.site.name=SIT
+company.default.home.url=/web/sit/home
+admin.email.from.name=Admin Admin
+liferay.home=C:/Program Files/liferay-portal-6.1.1-ce-ga2
+admin.email.from.address=Admin@liferay.com
+
+#production settings, turn them off for debugging.
+last.modified.check=false
+theme.css.fast.load=true
+javascript.fast.load=true
+com.liferay.portal.servlet.filters.sso.cas.CASFilter=false
+com.liferay.portal.servlet.filters.sso.ntlm.NtlmFilter=false
+com.liferay.portal.servlet.filters.sso.opensso.OpenSSOFilter=false
+com.liferay.portal.sharepoint.SharepointFilter=false
